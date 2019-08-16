@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	pb "github.com/vvatanabe/go-grpc-basics/echo/proto"
+	pb "github.com/ikotan/webdbpress-grpc/echo/proto"
 )
 
 type echoService struct{}
