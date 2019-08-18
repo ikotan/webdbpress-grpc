@@ -9,7 +9,7 @@ import (
 
 	"io/ioutil"
 
-	pb "github.com/vvatanabe/go-grpc-basics/downloader/proto"
+	pb "github.com/ikotan/webdbpress-grpc/downloader/proto"
 	"google.golang.org/grpc"
 )
 
