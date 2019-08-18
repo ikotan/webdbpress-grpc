@@ -12,5 +12,5 @@ message EchoResponse {
 
 service EchoService {
   rpc Echo (EchoRequest)
-    returns (EchoResponse);
+      returns (EchoResponse);
 }
