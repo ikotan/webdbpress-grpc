@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-PROTO_DIR="./downloader/proto/"
+PROTO_DIR="./uploader/proto/"
 PLUGINS="grpc"
-DEST_PATH="./downloader/proto/"
+DEST_PATH="./uploader/proto/"
 GO_OUT="plugins=$PLUGINS:$DEST_PATH"
-PROTO_FILE_PATH="./downloader/proto/file.proto"
+PROTO_FILE_PATH="./uploader/proto/file.proto"
 
 protoc --proto_path $PROTO_DIR --go_out=$GO_OUT $PROTO_FILE_PATH
